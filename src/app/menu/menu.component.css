@@ -1,0 +1,16 @@
+.button{
+    color: black; 
+    text-shadow: 1px 1px 1px rgba(156, 65, 65, 0.3);
+    margin-left: 80%
+}
+
+.tittle{
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+    margin-left: 10%;
+}
+
+.esp{
+    margin-left: 20%
+}

@@ -1,0 +1,20 @@
+.application-container-button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.margin{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+
+.margin-button{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.margin-tittle{
+    margin-left: 5%;
+    margin-top: 2%;
+}

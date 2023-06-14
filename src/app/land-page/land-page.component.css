@@ -1,0 +1,22 @@
+.spc{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.spc-button{
+    margin-left: 30%;
+}
+
+.border{
+    width: 18rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.btn-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+.img{
+    height: 200px;
+}

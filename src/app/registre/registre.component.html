@@ -1,0 +1,23 @@
+<form [formGroup]="form" (ngSubmit)="save()" class="row">
+    <h2 class="col-md-12 margin-tittle">{{ title }}</h2>
+    <div class="form-group col-md-5 margin">
+      <label for="name">Nombre:</label>
+      <input type="text" class="form-control" id="name" formControlName="name" required>
+    </div>
+    <div class="form-group col-md-5 margin">
+      <label for="tvShow">Serie de TV:</label>
+      <input type="text" class="form-control" id="tvShow" formControlName="tvShow" required>
+    </div>
+    <div class="form-group col-md-5 margin">
+      <label for="disneyApiId">ID de Disney API:</label>
+      <input type="number" class="form-control" id="disneyApiId" formControlName="disneyApiId" required>
+    </div>
+    <div class="form-group col-md-5 margin">
+      <label for="url">URL:</label>
+      <input type="text" class="form-control" id="url" formControlName="url" required>
+    </div>
+    <div class="form-group col-md-12 margin-button">
+      <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+  </form>
+  

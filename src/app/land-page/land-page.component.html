@@ -1,0 +1,17 @@
+<br>
+<div class="row">
+  <div *ngFor="let elemento of characteresDto" class="col-md-4">
+    <div class="card spc border" style="width: 100%;">
+      <img [defaultImage]="'assets/placeholder.jpg'" [errorImage]="'assets/error.jpg'" [lazyLoad]="elemento.url" class="card-img-top img" alt="Imagen del card">
+      <div class="card-body">
+        <p class="card-text">Nombre: {{ elemento.name }}</p>
+        <p class="card-text">Show: {{ elemento.tvShow }}</p>
+        <p class="card-text">Api: {{ elemento.disneyApiId }}</p>
+        <div class="mt-2">
+          <button class="btn btn-primary mr-2 btn-shadow" (click)="edit(elemento.id)" >Editar</button>
+          <button class="btn btn-danger spc-button btn-shadow" (click)="delete(elemento.id)">Eliminar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
