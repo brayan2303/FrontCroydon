@@ -1,27 +1,34 @@
 # FrontCroydon
+Requisitos previos:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
+Asegúrate de tener Node.js instalado en tu sistema. Puedes descargar la última versión estable de Node.js desde su sitio web oficial: https://nodejs.org
+Verifica que npm (Node Package Manager) esté instalado. Puedes verificar su versión ejecutando el siguiente comando en la terminal:
+npm -v
 
-## Development server
+Instalación de Angular CLI:
+Abre la terminal y ejecuta el siguiente comando para instalar Angular CLI de forma global en tu sistema:
+bash
+npm install -g @angular/cli
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Esto instalará la herramienta Angular CLI, que se utiliza para crear y administrar proyectos de Angular.
 
-## Code scaffolding
+Repositorio
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+En el siguiente link en contraras el repositorio con la nueva app https://github.com/brayan2303/FrontCroydon
 
-## Build
+Compilacion
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Una vez descarga el codigo, en la carpeta mediante el cmd ejecutaremos el siguiente comando npm install esto hara que todas las dependecia se intaladas correctamente para su uso.
 
-## Running unit tests
+Ejecucion del servidor local
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Ejecute `ng serve` para un servidor de desarrollo. Navegue a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia cualquiera de los archivos de origen.
 
-## Running end-to-end tests
+Detalles:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Esta aplicacion cuanta con diferente componentes los cuales se comunican entre ellos para generar la interaccion deseada, asi mismo esta app cuenta con:
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+HTML
+CSS
+BOOSTRAP
+TYPESCRIPT
